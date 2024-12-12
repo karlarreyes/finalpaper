@@ -1,16 +1,21 @@
-## Hi there 👋
+## Predicting Treatment for Heart Attack Risk Using Data Management
+This project aims analyze common heart attack risk factors and creating a prediction model for treatment. 
 
-<!--
-**karlarreyes/karlarreyes** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## Dataset
+The dataset can be accessed from Kaggle: 
 
-Here are some ideas to get you started:
+Setup Instructions
+1. Creating the Virtual Environment
+To isolate project dependencies, create a virtual environment:
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+python -m venv venv
+2. Activating the Virtual Environment
+Activate the virtual environment with the following command:
+
+source ./venv/bin/activate
+3. Installing Required Libraries
+Install all necessary libraries by running:
+
+pip install -r requirements.txt
+4. Running the Prediction Notebook
+Open and execute the customer_churn_prediction_CS210.ipynb Jupyter Notebook cell by cell to train and evaluate the model.
